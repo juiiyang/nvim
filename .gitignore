@@ -1,0 +1,67 @@
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data
+
+# Vim/Neovim temporary files
+*.swp
+*.swo
+*.tmp
+*~
+.netrwhist
+tags
+*.orig
+*.rej
+*.bak
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.sublime-*
+
+# Neovim specific
+.luarc.json
+session.vim
+.session.vim
+undodir/
+backup/
+swap/
+view/
+shada/
+
+# Runtime cache and temporary
+.cache/
+*.cache
+*.pid
+*.sock
+
+# Language specific
+node_modules/
+.npm
+.yarn
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+.venv
+venv/
+env/
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.Spotlight-V100
+.Trashes
+ehthumbs.db
